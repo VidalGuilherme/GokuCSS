@@ -1,0 +1,363 @@
+body{
+	display: block;
+	margin: 8px;
+}
+
+.container{
+	position: relative;
+	margin: 200px auto 0;
+	width: 480px;
+	height: 425px;
+}
+
+.line{
+	position: absolute;
+	border-style: solid;
+	border-color: #000;
+}
+
+.head-top{
+	top: 115px;
+	left: 174px;
+	width: 149px;
+	height: 144px;
+	border-width: 2px;
+	border-top: none;
+	border-bottom: none;
+	border-radius: 4px;
+	background-color: #ffd3b5;
+	box-shadow: inset -7px 0 0 0 #e4876a, 
+				inset 3px 0 0 0 #fefefe;
+	z-index: 5;
+}
+
+.head-bottom{
+	top: 202px;
+	left: 196px;
+	width: 108px;
+	height: 108px;
+	border-width: 1px;
+	border-top: none;
+	border-left: none;
+	border-radius: 0 4px 15px 4px;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	background-color: #ffd3b5;
+	box-shadow: inset -5px 0 0 0 #e4876a, 
+				inset 0 -2px 0 0 #fefefe;				
+	z-index: 4;
+}
+
+.ears{
+	position: absolute;
+	top: 180px;
+}
+
+.ear{
+	width: 30px;
+	height: 50px;
+	border-width: 2px;
+	background-color: #ffd3b5;
+	z-index: 3;
+}
+
+.earR{
+	left: 149px;
+	border-radius: 12px 0 14px 16px;
+	transform: rotate(16deg) skew(8deg,35deg);
+	-webkit-transform: rotate(16deg) skew(8deg,35deg);
+}
+
+.earL{
+	left: 320px;
+	border-radius: 0px 12px 16px 14px;
+	transform: rotate(-16deg) skew(-8deg,-35deg);
+	-webkit-transform: rotate(-16deg) skew(-8deg,-35deg);
+	box-shadow: inset 0 2px 0 0 #fefefe;
+}
+
+.eyes, .eyebrows, .eyebrowsR, .eyebrowsL{
+	position: absolute;
+}
+
+.eyes{
+	top: 140px;	
+}
+
+.eyebrows{
+	top: 130px;
+}
+
+.eyebrowsR{
+	top: 9px;
+	left: 187px;
+	transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+	z-index: 7;
+}
+
+.eyebrowsL{
+	left: 270px;
+	transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	z-index: 7;
+}
+
+.eyebrow{
+	top: 0px;
+	width: 40px;
+	height: 20px;
+	border-width: 1px;
+	background-color: #000;
+	z-index: 6;
+}
+
+.eyebrowR{
+	border-right: none;
+	border-radius: 19px 25px 0 0;
+	transform: skew(0deg,20deg);
+	-webkit-transform: skew(0deg,20deg);
+}
+
+.eyebrowL{
+	border-left: none;
+	border-radius: 25px 19px 0 0;
+	transform: skew(0deg,-20deg);
+	-webkit-transform: skew(0deg,-20deg);
+}
+
+.eyebrow-cut{
+	top: 10px;
+	width: 47px;
+	height: 25px;
+	background-color: #ffd3b5;
+	border-radius: 25px 25px 0 0;
+	border: none;
+	z-index: 7;
+}
+
+.eyebrow-cutL{
+	left: 0;
+}
+
+.eyebrow-cutR{
+	left: -8px;
+}
+
+.eye{
+	top: 26px;
+	width: 30px;
+	height: 60px;
+	border-width: 1px;
+	border-radius: 20px 20px 0 0;
+	background-color: #fff;
+	z-index: 7;
+}
+
+.eyeR{
+	left: 200px;
+	border-right: none;
+}
+
+.eyeL{
+	left: 270px;
+	border-left: none;
+}
+
+.eyeBall{
+	top: 30px;
+	width: 7px;
+	height: 14px;
+	border-width: 1px;
+	border-radius: 10px; 
+	background-color: #000;
+}
+
+.eyeBallL{
+	left: 3px;
+}
+
+.eyeBallR{
+	left: 19px;
+}
+
+.nose{
+	top: 246px;
+	left: 244px;
+	width: 15px;
+	height: 15px;
+	border-width: 1px;
+	border-left: none;
+	border-top: none;
+	border-radius: 0 0 4px 0px;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	background-color: #ffd3b5;
+	box-shadow: inset -3px 0 0 0 #e4876a, 
+				inset 0 -1px 0 0 #E4876A;
+	z-index: 6;
+}
+
+.lips{
+	top: 275px;
+	left: 242px;
+	width: 20px;
+	height: 2px;
+	border-width: 1px;
+	border-top: none;
+	border-left: none;
+	border-radius: 0 0 5px 0;
+	box-shadow: 0 1px 0 0 #e4876a;
+	z-index: 6;
+}
+
+.neck{
+	top: 240px;
+	left: 196px;
+	width: 108px;
+	height: 95px;
+	border-width: 2px;
+	border-bottom: none;
+	background-color: #ffd3b5;
+	z-index: 3;n
+}
+
+.hair{
+	border: 0;
+	background-color: #000;
+}
+
+.hairB{
+	top: 232px;
+	left: 176px;
+	width: 140px;
+	height: 50px;
+	box-shadow: inset -10px 3px 3px 0 rgb(49, 49, 49);
+	transform: skew(75deg,-23deg);
+	-webkit-transform: skew(75deg,-23deg);
+}
+
+.hairB2{
+	top: 178px;
+	left: 145px;
+	width: 200px;
+	height: 50px;
+	box-shadow: inset -10px 4px 4px 0px rgb(49, 49, 49);	
+	transform: rotate(4deg) skew(80deg,-23deg);
+	-webkit-transform: rotate(4deg) skew(80deg,-23deg);
+}
+
+.hairB3{
+	top: 66px;
+	left: -23px;
+	width: 225px;
+	height: 90px;
+	border: 5px;
+	border-radius: 111px 0px 0 0px;
+	box-shadow: inset 0px -8px 10px 0px rgb(49, 49, 49);	
+	transform: rotate(17deg);
+	-webkit-transform: rotate(17deg);
+}
+
+.hairB4{
+	top: -45px;
+	left: 79px;
+	width: 200px;
+	height: 123px;
+	border: 5px;
+	border-radius: 90px 0px 0 0px;
+	box-shadow: inset 0px -8px 25px 0px rgb(49, 49, 49);	
+	transform: rotate(70deg);
+	-webkit-transform: rotate(70deg);
+}
+
+.hairB5{
+	top: 139px;
+	left: 175px;
+	width: 232px;
+	height: 53px;
+	box-shadow: inset -30px 0px 5px -8px rgb(49, 49, 49);
+	transform: rotate(-5deg) skew(75deg,-19deg);
+	-webkit-transform: rotate(-5deg) skew(75deg,-19deg);
+}
+
+.hairBall{
+	top: 23px;
+	left: 220px;
+	width: 145px;
+	height: 145px;
+	border: 5px;
+	border-radius: 75px;
+}
+
+.hairF{
+	top: 120px;
+	left: 138px;
+	width: 82px;
+	height: 22px;
+	z-index: 6;
+	transform: rotate(115deg);
+	-webkit-transform: rotate(115deg);
+}
+
+.hairF2{
+	top: 96px;
+	left: 191px;
+	width: 68px;
+	height: 24px;
+	z-index: 7;
+	box-shadow: inset 0px -7px 3px -4px rgb(49, 49, 49);	
+	transform: rotate(113deg) skew(75deg,-19deg);
+	-webkit-transform: rotate(113deg) skew(75deg,-19deg);
+}
+
+
+.fioH1{
+	top: 143px;
+	left: 211px;
+	width: 65px;
+	height: 1px;
+	z-index: 6;
+	transform: rotate(106deg);
+	-webkit-transform: rotate(106deg);
+}
+
+.hairF3{
+	top: 102px;
+	left: 250px;
+	width: 58px;
+	height: 14px;
+	z-index: 7;
+	transform: rotate(90deg) skew(75deg,-40deg);
+	-webkit-transform: rotate(90deg) skew(75deg,-40deg);
+}
+
+.hairF4{
+	top: 156px;
+	left: 283px;
+	width: 23px;
+	height: 4px;
+	z-index: 7;
+	transform: rotate(116deg) skew(75deg,-13deg);
+	-webkit-transform: rotate(116deg) skew(75deg,-13deg);
+}
+
+.hairF5{
+	top: 165px;
+	left: 322px;
+	width: 25px;
+	height: 9px;
+	z-index: 7;
+	transform: rotate(133deg) skew(75deg,-19deg);
+	-webkit-transform: rotate(133deg) skew(75deg,-19deg);
+}
+
+.hairF6{
+	top: 125px;
+	left: 300px;
+	width: 60px;
+	height: 22px;
+	z-index: 7;
+	transform: rotate(-110deg);
+	-webkit-transform: rotate(-110deg);
+}
