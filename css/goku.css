@@ -1,6 +1,7 @@
 body{
 	display: block;
 	margin: 8px;
+	background-color: #C3D8F7;
 }
 
 .container{
@@ -360,4 +361,28 @@ body{
 	z-index: 7;
 	transform: rotate(-110deg);
 	-webkit-transform: rotate(-110deg);
+}
+
+.author{
+    font-family: Arial, Tahoma;
+    font-size: 14px;
+    text-align: left;
+    position: absolute;
+    bottom:30px;
+    right: 30px;
+    font-weight: bold;    
+
+}
+
+.author a{
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.author a:hover{
+    text-shadow:1px 1px 0 #fff;
+    color: #222;
+
 }
